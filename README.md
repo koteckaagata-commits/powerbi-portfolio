@@ -41,8 +41,14 @@ The dashboard consolidates key performance indicators across critical hospital f
 
 [Massachussets General Hospital.pdf](https://github.com/user-attachments/files/24534531/Massachussets.General.Hospital.pdf)
 
+- **Executive Summary**
+  
 ![Executive Summary](Massachussets_General_Hospital_Executive_summary.png)
+- **Encounters & Procedures Details**
+  
 ![Encounters & procedures details](Massachussets_General_Hospital_Encounters&procedures.png)
+- **Cost Details**
+  
 ![Cost Details](Massachussets_General_Hospital_Cost_Details.png)
 
 
