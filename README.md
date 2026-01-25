@@ -39,7 +39,7 @@ The dashboard consolidates key performance indicators across critical hospital f
 
 ## 📸 Dashboard Preview
 
-[Massachussets General Hospital.pdf](https://github.com/user-attachments/files/24534531/Massachussets.General.Hospital.pdf)
+[Massachussets General Hospital.pdf](https://github.com/koteckaagata-commits/powerbi-portfolio/blob/main/Massachussets%20General%20Hospital.pdf)
 
 - **Executive Summary**
   
