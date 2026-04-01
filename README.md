@@ -118,3 +118,64 @@ This dashboard was created to:
 - Showcase storytelling through data
 
 - Serve as a portfolio piece for analytics, BI, or data visualization roles
+
+---
+
+# 3. Spotify Users Analytics Report (Power BI)
+
+This project presents a multi‑page Power BI report built on an artificial Spotify‑style dataset. The goal is to demonstrate end‑to‑end BI skills: data modeling, DAX, visualization design, user segmentation, and executive‑level storytelling.
+
+---
+
+## 📊 Overview
+
+The report consists of three main pages, each focusing on a different analytical angle:
+
+- **Executive Dashboard** - This page provides a high‑level summary of platform performance and user engagement. It is designed for quick decision‑making and highlights the most important KPIs.
+
+- **Global User Distribution (Map)** - This page visualizes where users are located geographically.
+
+- **User Preferences & Behavior** - This page focuses on how users interact with the platform and what they value most.
+
+
+---
+
+
+## 🛠️ Tools & Techniques
+
+- **Power BI Desktop** for data modeling and visualization  
+- **DAX Measures** for KPI calculations  
+- **Data Cleaning & Transformation** using Power Query  
+- **Star Schema Modeling** for optimized performance  
+- **Executive‑level UX Design** focused on clarity and readability  
+
+
+---
+
+## 📸 Dashboard Preview
+
+[Spotify_report.pdf](https://github.com/koteckaagata-commits/powerbi-portfolio/blob/main/Spotify_report.pdf)
+
+
+- **Executive Summary**
+  
+  ![Spotify_Executive_Dashboard](Spotify_Executive_Dashboard.png)
+
+- **Global User Distribution (Map)**
+  
+  ![Spotify_Map](Spotify_Map.png)
+
+- **User Preferences & Behavior**
+  
+  ![Spotify_Users_Details](Spotify_Users_Details.png)
+
+---
+
+## 🎯 Purpose of the Project
+- Demonstrate strong BI design and storytelling
+
+- Build a clean, executive‑ready dashboard
+
+- Showcase segmentation, behavioral analytics, and conversion insights
+
+- Present a cohesive multi‑page report with consistent design and narrative flow
