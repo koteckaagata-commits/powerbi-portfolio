@@ -16,30 +16,57 @@ Each project includes a curated report with clear business insights and polished
 
 ## 1. Massachusetts General Hospital
 
+## 📊 Project Goal
+
 This project presents a high‑level KPI dashboard designed for the executive leadership team of a hospital. The report provides a clear, data‑driven view of recent operational performance using a curated subset of patient records. Its purpose is to help stakeholders quickly assess trends, identify areas requiring attention, and support strategic decision‑making.
 
----
-
-## 📊 Overview
 
 The dashboard consolidates key performance indicators across critical hospital functions, including patient flow, operational efficiency, and patients' structure. It is optimized for executive‑level consumption, emphasizing clarity and simplicity.
 
 ---
+## 🔧 Project Key Steps
 
-## 🔑 Key Features
+1. Data Exploration & Preparation
+  - Classified encounter records into Admissions and Non‑Admissions to enable clearer operational analysis
+  - Extracted encounter start and end times to calculate accurate length‑of‑stay metrics
+  - Computed patient age and organized individuals into meaningful age cohorts for demographic segmentation
+  - Created a parameter table to support dynamic slicing and interactive analysis
+  - Developed core DAX measures to drive KPI calculations and visual insights
 
-- **Patient Volume Trends**  
+2. Business Logic Definition
 
-- **Average Length of Stay (ALOS)**  
+By standard definition, only the Inpatient encounter class represents true admissions, as these visits include overnight stays. However, exploratory analysis revealed inconsistencies: several encounters classified under other encounter types also showed overnight stays.
+To ensure accurate categorization, admissions were therefore defined based on actual length of stay rather than relying solely on encounter class. This approach provided a more reliable and data‑driven distinction between Admissions and Non‑Admissions, improving the accuracy of downstream analysis and KPIs.
 
-- **Seasonality**  
+3. Data Model
 
-- **Claim cost analysis**  
+With the cleaned and enriched dataset prepared, a structured data model was developed to support efficient analysis and dashboard performance. This included defining clear relationships between tables, establishing a star‑schema layout where appropriate, and ensuring all calculated measures and parameters integrated seamlessly with the model to enable dynamic, user‑driven insights.
 
-- **Payers coverage insight**  
+4. Visualization & Dashboard Design
+   
+With the data model in place, the report was designed across three focused pages to deliver clear, actionable insights for different stakeholder needs:
 
-- **Patient Demographics**  
+- Executive Dashboard — A high‑level overview highlighting core metrics, encounter volumes, patient demographics, and key operational trends. Designed for quick decision‑making with a clean layout, intuitive navigation, and prioritized metrics.
 
+- Procedures & Encounters Details — A deeper analytical view providing granular insights into patient visits, encounter types, procedure volumes, length of stay analysis, seasonality. This page supports operational teams by enabling dynamic filtering for more detailed exploration.
+
+- Cost Details — A financial‑focused page analyzing cost distribution, cost per encounter, high‑cost procedures, departmental cost drivers and payers coverage insight.
+
+Across all pages, consistent design principles were applied, including a unified color palette, clear typography, optimized visual hierarchy, and interactive elements such as slicers, parameters, and tooltips to enhance user‑driven exploration.
+
+6. Insights & Outcomes
+
+The analysis revealed several key patterns in patient encounters, demographics, and cost distribution:
+
+- Admissions vs. Non‑Admissions:  
+Non‑admissions accounted for nearly 96% of all encounters, confirming that outpatient and ambulatory services dominate hospital activity. However, redefining admissions based on actual length of stay exposed misclassified cases, improving accuracy in operational reporting.
+- Demographic Insights:  
+The >80 age group emerged as the largest cohort representing nearly half of all encounters, indicating a high concentration of healthcare utilization among elderly patients. Gender distribution remained balanced, with a slight female majority.
+- Seasonality & Volume Trends:  
+Encounter volumes peaked in February & March, suggesting early‑year demand pressure. This seasonal pattern can support staffing and resource planning, especially for high‑volume departments.
+- Cost Distribution:  
+Total claim cost exceeded $101M, with Ambulatory and Urgent Care services contributing the largest share of overall expenses.
+Despite lower encounter counts, Inpatient and Urgent Care visits showed the highest average cost per encounter, highlighting areas where cost‑efficiency initiatives may have the greatest impact.
 ---
 
 ## 📸 Dashboard Preview
